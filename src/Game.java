@@ -1,3 +1,6 @@
+
+import java.util.*;
+
 public class Game {
     private int numOfPlayers;
     private ArrayList<Snake> snakes;
@@ -28,7 +31,7 @@ public class Game {
         while(!isGameOver()){
 
             currPlayer = players.poll();
-            rolledVal = dice.generateRoll);
+            rolledVal = dice.generateRoll();
             oldPosition = currPlayer.getLocation();
             newPosition = oldPosition + rolledVal;
 
@@ -42,7 +45,7 @@ public class Game {
             } else {
                 System.out.println("Player "+currPlayer.getName()+" won the game.");
                 currPlayer.addToPath(newPosition);
-                System.out.println(currPlayer.printPath());
+                currPlayer.printPath();
             }
 
             int jumpVal = board.getJumpValue(newPosition);
