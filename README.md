@@ -1,5 +1,11 @@
 # LLD-Design---Snakes-and-Ladders 🐍🎲🪜
 
+# Execute
+
+* javac App.java 
+
+* java App
+
 ## Snakes and Ladders game is designed using LLD Design in java
 
 
