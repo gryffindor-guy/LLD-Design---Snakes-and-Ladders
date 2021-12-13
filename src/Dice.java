@@ -1,3 +1,4 @@
+import java.util.*;
 public abstract class Dice {
     private int minValue;
     private int maxValue;

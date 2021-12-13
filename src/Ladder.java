@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Ladder extends Jumper {
     public Ladder(int startPoint, int endPoint) {
         this.setStartingPoint(startPoint);

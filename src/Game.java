@@ -37,6 +37,7 @@ public class Game {
 
             if (newPosition > finishPoint) {
                 System.out.println(currPlayer.getName() + " Rolled "+rolledVal +" could not move");
+                players.add(currPlayer);
                 continue;
             } else if (newPosition < finishPoint) {
                 currPlayer.addToPath(newPosition);

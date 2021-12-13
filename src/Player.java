@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Player {
 
     private String name;
@@ -26,6 +28,6 @@ public class Player {
         for(Integer loc : this.path) {
             System.out.print(loc + " --> ");
         }
-        System.out.println();
+        System.out.println("FINISHED");
     }
 }

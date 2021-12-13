@@ -1,3 +1,7 @@
+import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
+
+
 public class NDice extends Dice {
 
     public NDice(int minValue, int maxValue) {
@@ -6,6 +10,7 @@ public class NDice extends Dice {
     }
 
     public int generateRoll() {
-        return (int randomNum = ThreadLocalRandom.current().nextInt(this.getMinValue(), this.getMaxValue() + 1));
+        int randomNum = ThreadLocalRandom.current().nextInt(this.getMinValue(), this.getMaxValue() + 1);
+        return randomNum;
     }
 }

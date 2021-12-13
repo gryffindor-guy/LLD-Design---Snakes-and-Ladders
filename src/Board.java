@@ -1,4 +1,4 @@
-import java.util.Map;
+import java.util.*;
 
 public class Board {
 
@@ -8,6 +8,7 @@ public class Board {
 
     public Board(int numberOfCells) {
         this.numberOfCells = numberOfCells;
+        this.jumpers = new HashMap<>();
     }
     public int getNumberOfCells() {
         return this.numberOfCells;

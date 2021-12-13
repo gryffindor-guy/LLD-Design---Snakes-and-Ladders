@@ -1,3 +1,5 @@
+import java.util.*;
+
 public abstract class Jumper {
     private int startingPoint;
     private int endingPoint;
