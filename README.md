@@ -14,3 +14,7 @@
 #### Number of players (p) followed by p lines each containing a name.
 #### Number of dices(nd) for number of dices to be used, each has a range from 1 to 6.
 #### Board size denoting the target to reach.
+
+
+                                                                                ----- M.H.S.S.Ganesh Babu
+                                                                                      19PA1A05B3
